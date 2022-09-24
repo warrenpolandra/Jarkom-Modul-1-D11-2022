@@ -146,4 +146,4 @@ Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di a
 
 ## Kendala yang dialami selama praktikum:
 - Waktu yang sedikit sehingga kami agak tergesa-gesa dalam mencari dan menuliskan jawaban
-- Terkadang filter wireshark yang digunakan dari satu anggota tidak bisa digunakan oleh anggota lainnya walaupun filter yang diguanakan sama (menghasilkan error)
+- Terkadang filter wireshark yang digunakan dari satu anggota tidak bisa digunakan oleh anggota lainnya walaupun filter yang digunakan sama (menghasilkan error)
