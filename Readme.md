@@ -25,9 +25,6 @@ Web server pada monta.if.its.ac.id
 ## Soal 2
 Judul TA yang dibuka oleh Ishaq (Halaman 1):  Evaluasi unjuk kerja User Space Filesystem (FUSE)
 
-## Soal 2
-2.	Judul TA yang dibuka oleh Ishaq (Halaman 1):  Evaluasi unjuk kerja User Space Filesystem (FUSE)
-
 Cara menemukan judul TA:
 -	Dowload File soal dan file *.pcapng dapat di-download di drive.
 -	Klik file menggunakan Wireshark
