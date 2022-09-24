@@ -26,7 +26,7 @@ Cara menemukan judul TA:
 
 ![](https://github.com/AfiraRolobessy03/gambar-modul-1-jarkom/blob/main/2.png)
 -	Jadi judul TA apa yang dibuka oleh ishaq adalah melalui web monta.if.its.ac.id http://monta.if.its.ac.id/index.php/topik/detailTopik/194 Evaluasi unjuk kerja User Space Filesystem (FUSE)
-![](https://github.com/AfiraRolobessy03/gambar-modul-1-jarkom/blob/main/3.png)
+![](https://github.com/AfiraRolobessy03/gambar-modul-1-jarkom/blob/main/Gambar1.png)
 
 ## Soal 3
 3.	Filter wireshark untuk menampilkan paket yang menuju port 80:
