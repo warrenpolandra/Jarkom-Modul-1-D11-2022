@@ -143,3 +143,7 @@ Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di a
 ![Soal 10a](https://cdn.discordapp.com/attachments/856609726225973278/1023273758871539732/unknown.png)
 
 ![Soal 10b](https://cdn.discordapp.com/attachments/856609726225973278/1023274076439052418/unknown.png)
+
+## Kendala yang dialami selama praktikum:
+- Waktu yang sedikit sehingga kami agak tergesa-gesa dalam mencari dan menuliskan jawaban
+- Terkadang filter wireshark yang digunakan dari satu anggota tidak bisa digunakan oleh anggota lainnya walaupun filter yang diguanakan sama (menghasilkan error)
