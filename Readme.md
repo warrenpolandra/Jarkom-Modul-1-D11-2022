@@ -98,6 +98,48 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
 ## Soal 8
 
+**Soal:**
+Cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum
+
+**Cara Pengerjaan:**
+1. Gunakan display filter: “ip.src == localhost or ip.dst == localhost && tcp.flags.push == 1 && tcp.port == 65432”
+2. Filter "ip.src == localhost or ip.dst == localhost" akan semua menangkap paket yang berasal dari atau menuju localhost
+3. Filter "tcp.flags.push == 1" digunakan untuk mencari paket yang memiliki flag [PSH]
+4. "tcp.port == 65432" digunakan untuk mencari paket yang berasal dari atau menuju port 65432 (ditemukan setelah melihat pola paket)
+5. Akan ditemukan semua paket yang berisi data informasi kecurangan tersebut
+6. Kita dapat mem-follow TCP stream pada salah satu paket tersebut kemudian akan ditampilkan seluruh percakapan tersebut
+7. Dokumentasi:
+
+![Soal 8a](https://cdn.discordapp.com/attachments/856609726225973278/1023269443528298526/unknown.png)
+
+![Soal 8b](https://cdn.discordapp.com/attachments/856609726225973278/1023270138969067651/unknown.png)
+
 ## Soal 9
 
+**Soal:**
+Carilah pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, beri nama file yang ditemukan dengan format [nama_kelompok].des3 dan simpan output file dengan nama “flag.txt”
+
+**Cara Pengerjaan:**
+1. Dari soal no. 8 didapatkan bahwa pertukaran file dilakukan pada port 9002
+2. Dapat dilakukan filtering dengan filter "tcp.port == 9002"
+3. Dari filter tersebut, paket yang ada dapat di-follow TCP streamnya hingga terdapat paket yang mengandung data sebesar 56 byte yaitu "Salted__.:....B(......$E...K)..<<......f ......B.G4..+.."
+4. File tersebut kemudian dapat diubah ke raw dan disave dengan nama "D11.des3"
+5. Dokumentasi:
+
+![Soal 9a](https://cdn.discordapp.com/attachments/856609726225973278/1023272134027522109/unknown.png)
+
 ## Soal 10
+
+**Soal:**
+Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
+
+**Cara Pengerjaan:**
+1. Dari soal no. 8, ditemukan hint bahwa password dari file tersebut adalah sebuah anime kembar lima
+2. Dengan mencari informasi di paket lainnya, ditemukan bahwa passwordnya adalah kesamaan dari anime kembar lima tersebut, yaitu nama belakang dari kelima karakter anime tersebut yang bernama "nakano"
+3. Sesuai dengan hint dari no. 8, kami memasukkan syntax "openssl des3 -d -salt -in D11.des3 -out flag.txt" untuk mendapatkan flagnya
+4. Kemudian kami memasukkan password "nakano"
+5. Flag yang kami dapatkan adalah "JaRkOm2022{8uK4N_CtF_k0k_h3h3h3}"
+6. Dokumentasi:
+![Soal 10a](https://cdn.discordapp.com/attachments/856609726225973278/1023273758871539732/unknown.png)
+
+![Soal 10b](https://cdn.discordapp.com/attachments/856609726225973278/1023274076439052418/unknown.png)
