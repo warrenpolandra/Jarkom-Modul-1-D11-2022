@@ -6,6 +6,11 @@
 - Beryl                   5025201029
 - Warren Gerald Polandra  5025201233
 
+## Pembagian Tugas:
+- Afira: Soal 1-3
+- Beryl: Soal 4-7
+- Warrren: Soal 8-10
+
 ## Soal 1
 Web server pada monta.if.its.ac.id
 -	Dapat dilihat dengan membuka command prompt
@@ -14,23 +19,30 @@ Web server pada monta.if.its.ac.id
 -	Web server yang digunakan adalah Nginx
 -	Dokumentasi
 
-![](https://github.com/AfiraRolobessy03/gambar-modul-1-jarkom/blob/main/image.png)
+![hasil 1](https://github.com/AfiraRolobessy03/gambar-modul-1-jarkom/blob/main/image.png)
 
 
 ## Soal 2
+Judul TA yang dibuka oleh Ishaq (Halaman 1):  Evaluasi unjuk kerja User Space Filesystem (FUSE)
+
+## Soal 2
 2.	Judul TA yang dibuka oleh Ishaq (Halaman 1):  Evaluasi unjuk kerja User Space Filesystem (FUSE)
+
 Cara menemukan judul TA:
 -	Dowload File soal dan file *.pcapng dapat di-download di drive.
 -	Klik file menggunakan Wireshark
 -	Akan muncul index.php/topik/detailTopik/194\
 -	Dokumentasi:
 
-![](https://github.com/AfiraRolobessy03/gambar-modul-1-jarkom/blob/main/2.png)
+![hasil 1](https://github.com/AfiraRolobessy03/gambar-modul-1-jarkom/blob/main/2.png)
+
 -	Jadi judul TA apa yang dibuka oleh ishaq adalah melalui web monta.if.its.ac.id http://monta.if.its.ac.id/index.php/topik/detailTopik/194 Evaluasi unjuk kerja User Space Filesystem (FUSE)
+
 ![](https://github.com/AfiraRolobessy03/gambar-modul-1-jarkom/blob/main/3.png)
 
 ## Soal 3
 3.	Filter wireshark untuk menampilkan paket yang menuju port 80:
+
 -	Download File soal dan file *.pcapng dapat di-download di drive.
 -	Buka file soal3-6.pcapng menggunakan Wireshark
 -	Masukkan filter tcp.dstport == 80
